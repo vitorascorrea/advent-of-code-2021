@@ -36,7 +36,7 @@ def solve_second(lines):
   return horizontal * depth
 
 if __name__ == '__main__':
-  f = open('day_2_input.txt')
+  f = open('inputs/day_2_input.txt')
   raw_input = f.read()
 
   lines = raw_input.splitlines()

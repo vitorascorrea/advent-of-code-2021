@@ -31,7 +31,7 @@ def solve_second(lines):
 
 
 if __name__ == '__main__':
-  f = open('day_1_input.txt')
+  f = open('inputs/day_1_input.txt')
   raw_input = f.read()
 
   lines = list(map(int, raw_input.splitlines()))
